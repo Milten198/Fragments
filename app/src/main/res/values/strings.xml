@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FragmentThroughXMLSimpleExample</string>
+    <string name="hello_from_my_first_fragment">Hello from my first Fragment</string>
+</resources>
