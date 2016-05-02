@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/secondFragmentLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#669422"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textInSecondFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="35dp"
+        android:text="@string/you_have_clicked_this_button"
+        android:textSize="18sp" />
+
+</LinearLayout>

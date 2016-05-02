@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InterFragmentCommunicationExample</string>
+    <string name="count_me_in">Count me in!</string>
+    <string name="you_have_clicked_this_button">You have clicked this button:</string>
+</resources>
