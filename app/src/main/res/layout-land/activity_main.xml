@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentA"
+        android:name="com.example.android.flexiblefragmentui.FragmentA"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal|top"/>
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:name="com.example.android.flexiblefragmentui.FragmentB"
+        android:id="@+id/fragmentB"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal|top"/>
+</LinearLayout>

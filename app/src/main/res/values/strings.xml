@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FlexibleFragmentUI</string>
+
+    <string-array name="titles">
+        <item>Dog</item>
+        <item>Snake</item>
+        <item>Fish</item>
+        <item>Lizard</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Dogs are cute</item>
+        <item>Snakes are ugly</item>
+        <item>Fish are stinky</item>
+        <item>Lizards are awful</item>
+    </string-array>
+</resources>
