@@ -23,20 +23,26 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Add A"
-                android:onClick="addA"/>
+                android:onClick="addA"
+                android:text="Add A" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Remove A"
-                android:onClick="removeA"/>
+                android:onClick="removeA"
+                android:text="Remove A" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Replace A with B"
-                android:onClick="replaceAWithB"/>
+                android:onClick="attachA"
+                android:text="Attach A" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="detachA"
+                android:text="Detach A" />
 
         </LinearLayout>
 
@@ -48,20 +54,27 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Add B"
-                android:onClick="addB"/>
+                android:onClick="addB"
+                android:text="Add B" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Remove B"
-                android:onClick="removeB"/>
+                android:onClick="removeB"
+                android:text="Remove B" />
+
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Replace B with A"
-                android:onClick="replaceBWithA"/>
+                android:onClick="attachB"
+                android:text="Attach B" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="detachB"
+                android:text="Detach B" />
 
         </LinearLayout>
 
@@ -73,29 +86,70 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Attach A"
-                android:onClick="attachA"/>
+                android:onClick="replaceAWithB"
+                android:text="Replace A with B" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Detach A"
-                android:onClick="detachA"/>
+                android:onClick="replaceBWithA"
+                android:text="Replace B with A" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="back"
+                android:text="Back" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="popAddB"
+                android:text="Pop Add B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:id="@+id/group"
-            android:orientation="vertical">
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/group"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#ffeeee"
+                android:orientation="vertical"></LinearLayout>
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="#eeeeff">
+
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </ScrollView>
 
 
         </LinearLayout>
 
     </LinearLayout>
-
 
 
 </RelativeLayout>
