@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AlertDialogBuilder</string>
+
+    <string-array name="animals">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bear</item>
+        <item>Snake</item>
+        <item>Monkey</item>
+        <item>Fish</item>
+        <item>Elephant</item>
+        <item>Tiger</item>
+    </string-array>
+</resources>
