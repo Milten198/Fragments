@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ScrollableTabsExample</string>
+    <string name="this_is_fragment_b">This is fragment B</string>
+    <string name="this_is_fragment_a">This is fragment A</string>
+    <string name="this_is_fragment_c">This is fragment C</string>
+</resources>
